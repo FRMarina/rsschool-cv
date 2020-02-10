@@ -1,0 +1,1 @@
+https://github.com/FRMarina/rsschool-cv/blob/gh-pages/cv.md
