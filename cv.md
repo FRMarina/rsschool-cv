@@ -8,3 +8,7 @@
    * JavaScript 
    * SQL(MySql) 
    * PHP(Laravel)
+5. information will be added
+6. information will be added
+7. BSUIR 'Web-design'
+8. I studied English at school, but I plan to go to SreamLine courses in Minsk to improve it and meet EPAM requirements.
