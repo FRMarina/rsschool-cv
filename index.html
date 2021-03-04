@@ -1,83 +1,86 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>My Resume</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CV</title>
 </head>
 <body>
-	<div class="container">
-		<header>
-				<h1>Fedchyk-Rolich Maryna</h1>
-		    	<img class="my-photo" src="img/me.jpg" alt="me">
-		    <div class="contact-info">
-		    	<div>
-		    		<h4>Location</h4>
-		    		<p>Belarus, Minsk</p>
-		    	</div>
-		    	<div>
-		    		<h4>Phone</h4>
-		    		<p>+375256397601</p>
-		    	</div>
-		    	<div>
-		    		<h4>Email</h4>
-		    		<p>marinafedchik@gmail.com</p>
-		    	</div>
-		    	<div>
-		    		<h4>GitHub</h4>
-		    		<p><a href ="https://github.com/FRMarina">FRMarina</a></p>
-		    	</div>
-		    </div>
-		</header>
-		<main>
-			<article>
-		<div class="section">
-			<div>
-				<h4>Summary</h4>
-			</div>
-			<div class="about">
-				<p>I want to get more JavaScript programming experience, improve my knowledge and skills. Learn React, Angular, and Node. I have already studied HTML, CSS, JavaScript, PHP, SQL at BSUIR, however I want to deepen my knowledge of JavaScript at the courses of such a reputable company as EPAM, get more experience, communicate with practicing programmers in this field of development, as well as change my profession and get on work in EPAM.</p>
-			</div>
-		</div>
-			</article>
-			<article>
-		<div class="section">
-				<div>
-					<h4>Skills</h4>
-				</div>
-				<div class="about">
-					<ul>
-						<li>HTML</li>
-						<li>CSS</li>
-						<li>JavaScript</li>
-						<li>SQL(MySQL)</li>
-						<li>PHP(Laravel)</li>
-					</ul>
-				</div>
-			</div>
-			</article>
-			<article>
-			<div class="section">
-				<div>
-					<h4>Education</h4>
-				</div>
-				<div class="about">
-					<p>I study at BSUIR, specializing in Web Design</p>
-				</div>
-			</div>
-			</article>
-			<article>
-			<div class="section">
-				<div>
-					<h4>English</h4>
-				</div>
-				<div class="about">
-					<p>I studied English at school, but I plan to go to SreamLine courses in Minsk to improve it and meet EPAM requirements.</p>
-				</div>
-			</div>
-			</article>
-	</main>
-</div>
+    <header>
+        <section class="header_section">
+           <h1>Fedchyk-Rolich Maryna</h1> 
+           <ul>
+            <li><a href="tel:+375256397601"><img src="assets/tel.png" alt="telephone" width="40"> </a></li>
+            <li><a href="mailto:marfed05@mail.ru"> <img src="assets/apple-mail.png" alt="email" width="42"> </a></li>
+            <li><a href="https://github.com/FRMarina"> <img src="assets/github.png" alt="github" width="40"> </a></li>
+        </ul>
+        </section>
+        <section class="header_section">
+            <figure>
+            <img src="assets/me.jpg" alt="maryna" width="262" height="277"/>
+            <figcaption>
+               <h2>Life Philosophy:</h2> 
+                <blockquote><q><i>Stop tolking, start rocking!</i></q></blockquote>
+            </figcaption>
+            </figure> 
+        </section>
+
+    </header>
+    <main>
+        <section>
+            <div class="skills">
+                <h4>My skills is:</h4>
+               <ul>
+                   <li> <img src="assets/html5.png" alt="html" width="90"> </li>
+                   <li> <img src="assets/css3.jpg" alt="css" width="90"> </li>
+                   <li> <img src="assets/sass.png" alt="sass" width="90"> </li>
+                   <li> <img src="assets/js.jpg" alt="javascript" width="90"> </li>
+                   <li> <img src="assets/php.png" alt="php" width="90"> </li>
+                   <li> <img src="assets/mySql.jpg" alt="mysql" width="90"> </li>
+               </ul>
+            </div>
+            <div class="about_me">
+            <h2>About me</h2>
+            <p>I really love programming and want to get more experience in JavaScript programming, improve my knowledge and skills. I know a little HTML, CSS, JavaScript and I want to deepen my knowledge on courses of such a reputable company as EPAM, get more experience, communicate with practicing programmers in this area of development, and also find a job in IT.</p>
+            <h4>Education</h4>
+            <p>BSUIR, specializing in Web Design</p>
+            <h4>English</h4>
+            <p>My level of English A2</p>
+        </div>
+
+        <div class="code_example">
+            <h4>Code example</h4>
+            <pre><code>
+                let result = "";
+                if (Array.isArray(members) === false) {
+                  return false;
+                } else {
+                  let sortArr = members.map((e) =>
+                    typeof e !== "string" ? e : e.trim().toUpperCase()
+                  );
+                  sortArr.forEach(function (element) {
+                    if (typeof element === "string") {
+                      result += element[0];
+                    } else {
+                      return;
+                    }
+                });
+            }
+            return result.split("").sort().join("");
+            </code></pre>
+        </div>
+        </section>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="https://rs.school/js/"><img src="assets/rs_school_js.svg" alt="" width="100" height="30"></a></li>
+            <li><a href="tel:+375256397601">Telephone</a></li>
+            <li><a href="mailto:marfed05@mail.ru">Email</a></li>
+            <li><a href="https://github.com/FRMarina">GitHub</a></li>
+            <li>Minsk, 2021</li>
+        </ul>
+    </footer>
 </body>
 </html>
