@@ -1,7 +1,6 @@
 # Marina Fedchik
 
 ## *Junior Frontend Developer*
-
 ------------------------------
 ## Contact information:
 + Phone: +375256397601
