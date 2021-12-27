@@ -3,8 +3,8 @@
 ## *Junior Frontend Developer*
 ------------------------------
 ## Contact information:
-+ Phone: +375256397601
-+ E-mail: marfed05@mail.ru
++ Phone: +375257777777
++ E-mail: addres@mail.ru
 
 ## Briefly About Myself:
 I have no experience in IT sphere, but I like programming. I'd like to get a job in EPAM company.
