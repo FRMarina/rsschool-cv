@@ -43,15 +43,13 @@
             <div id="code_example"><h2>Code example</h2></div>
             <div>
                 <code>
-                   
                  function com(...arg){
                  let obj = {};
-                 arg.forEach(object=>Object.keys(object).forEach(function(key){
+                 arg.forEach(object=Object.keys(object).forEach(function(key){
                  key in obj ? obj[key]+=object[key] : obj[key] = object[key];
                    }));
                 return obj;
-                   }
-                       
+                   }    
                 </code>
             </div>
             <div id="courses"><h2>Courses</h2></div>
