@@ -31,9 +31,9 @@ arg.forEach(object=>Object.keys(object).forEach(function(key){
 combine(objA, objB);
 ```
 ## Courses:
-+ BSUIR "Web-design"
-+ JavaScript Manual on [learnjavascript.ru](learnjavascript.ru) (in progress)
-+ RS Schools Course «JavaScript/Pre-School» (in progress)
++ BSUIR "Web-design";
++ JavaScript Manual on [learnjavascript.ru](learnjavascript.ru) (in progress);
++ RS Schools Course «JavaScript/Pre-School» (in progress);
 
 ## Languages:
 + English courses "Streamline" B1 level (in progress)
